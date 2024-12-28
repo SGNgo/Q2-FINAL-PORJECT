@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q2 FINAL PROJECT</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+             <img src="logo.jpg" alt="Logo" style="width:60px;" class="rounded-pill">
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        What and Why?
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="what.html">What are the Recipes? </a></li>
+                            <li><a class="dropdown-item" href="why.html">Why is this important?</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recos.html">Recommendations</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Search Form -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <h1> <strong>Some of Luzon's Offerings!</strong> </h1>
+    <p>Find the recipes to some of the Philippines' most classical dishes!</p>
+
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://api.lifegetsbetter.ph/uploads/recipes/featured/Kare-KAre.jpg" alt="Kare Kare" class="d-block w-100">
+       <div class="carousel-caption">
+    <h3><strong>Kare Kare</strong></h3>
+    <p><strong>Tastes best when it's hot!</strong></p>
+  </div>
+</div>
+    <div class="carousel-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Adobo_DSCF4391.jpg" alt="Adobo" class="d-block w-100">
+     <div class="carousel-caption">
+    <h3><strong>Adobo</strong></h3>
+    <p><strong>Philippine classic!</strong></p>
+  </div>
+</div>
+    <div class="carousel-item">
+      <img src="https://jocyls.com/wp-content/uploads/2024/03/easy-sinigang-recipe-step-by-step.jpg" alt="Sinigang" class="d-block w-100">
+     <div class="carousel-caption">
+    <h3><strong>Sinigang</strong></h3>
+    <p><strong>Sour yet savory!</strong></p>
+  </div>
+</div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+</body>
+
+<footer> Seth Ngo | 9-Sapphire</footer>
+
+
+</html>
